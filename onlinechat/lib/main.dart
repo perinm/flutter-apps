@@ -96,6 +96,9 @@ class _TextComposerState extends State<TextComposer> {
               child: TextField(
                 decoration:
                     InputDecoration.collapsed(hintText: "Enviar uma Mensagem"),
+                onChanged: (text) {
+                  _isComposing = text.length > 0;
+                },
               ),
             )
           ],
