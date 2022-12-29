@@ -26,6 +26,7 @@
 # sdkmanager --licenses
 # flutter doctor
 
+# https://dev.to/fullstackhacker/install-flutter-on-debian-3g3h
 sudo apt update
 sudo apt install -y curl file git unzip xz-utils zip libglu1-mesa clang cmake ninja-build pkg-config libgtk-3-dev default-jdk gdebi
 mkdir -p $HOME/Downloads && cd "$_"
